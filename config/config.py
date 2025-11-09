@@ -8,15 +8,15 @@ class Config:
     # API配置
     API_CONFIG = {
         "gold": {
-            "url": "https://api.example.com/gold",  # 替换为实际黄金API地址
+            "url": "https://v3.alapi.cn/api/gold",  # 替换为实际黄金API地址
             "token": os.getenv('GOLD_API_TOKEN', '')
         },
         "crypto": {
-            "url": "https://api.example.com/crypto",  # 替换为实际虚拟货币API地址
+            "url": "https://v3.alapi.cn/api/crypto_currency",  # 替换为实际虚拟货币API地址
             "token": os.getenv('CRYPTO_API_TOKEN', '')
         },
         "news": {
-            "url": "https://api.example.com/news",  # 替换为实际新闻API地址
+            "url": "https://v3.alapi.cn/api/new/toutiao",  # 替换为实际新闻API地址
             "token": os.getenv('NEWS_API_TOKEN', '')
         },
         "oil": {
